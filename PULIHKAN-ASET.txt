@@ -1,0 +1,34 @@
+FURQANBEE — PEMULIHAN GAMBAR DAN VIDEO
+
+ZIP asal di Desktop mempunyai semua aset. ZIP ini membekalkan semula
+lima folder aset tanpa mengubah permainan:
+assets, media, fonts, icons, vendor.
+
+1. Extract ZIP ini.
+2. Buka repository GitHub yang digunakan oleh projek Vercel anda.
+3. Pada akar repository (tempat index.html), pilih Add file > Upload files.
+4. DRAG kelima-lima FOLDER di atas dan semak-fail.html ke kawasan upload.
+   Jangan buka setiap folder dan upload isinya secara rata ke akar.
+   Tunggu semua fail selesai, kemudian Commit changes.
+5. Tunggu Vercel siap deploy commit tersebut ke Production.
+6. Buka https://furqanbee.vercel.app/semak-fail.html dan klik Semak semua fail.
+   Halaman itu menyemak saiz dan SHA256 semua fail terus daripada hosting.
+   Ia tidak bergantung pada gambar lama dalam cache.
+7. Jika semuanya OK tetapi aplikasi masih lama, tekan Muat versi baharu
+   dalam aplikasi atau bandingkan dengan tetingkap Incognito.
+
+Contoh lokasi BETUL dalam repository:
+index.html
+assets/summer/flavour-2.svg
+assets/hidden-garden.png
+media/kiko-portrait.png
+media/kiko-right.webm
+media/yuyu-right.webm
+fonts/Baloo2.ttf
+vendor/hand_landmarker.task
+
+Jangan upload ZIP sebagai pengganti folder. Jangan letakkan folder ini
+di dalam satu lagi folder FurqanBee jika index.html berada di akar.
+
+Semakan ini tidak mendakwa hosting sudah dibaiki. Fail hanya akan pulih
+selepas dimuat naik ke repository/branch yang dideploy oleh Vercel.
